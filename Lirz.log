@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.6.20)  26 OCT 2021 22:17
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.6.20)  29 OCT 2021 15:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -773,50 +773,21 @@ LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <10> not available
 LaTeX Font Warning: Font shape `TU/SimSun(0)/m/it' undefined
 (Font)              using `TU/SimSun(0)/m/n' instead on input line 77.
 
-! Too many }'s.
-l.97 }
-      
-? 
-! Too many }'s.
-l.118 }
-       
-? 
-! Too many }'s.
-l.131 }
-       
-? 
-! Too many }'s.
-l.142 }
-       
-? 
-! Too many }'s.
-l.153 }
-       
-? 
 [1
 
 ] (./Lirz.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `Lirz.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Lirz.out':
-(rerunfilecheck)             Before: 4BE1DB52EDAEC97CDA1746F232043D2F;225
-(rerunfilecheck)             After:  DDD56B3DBCC5D555357CBEDE6E922F58;300.
+Package rerunfilecheck Info: File `Lirz.out' has not changed.
+(rerunfilecheck)             Checksum: DDD56B3DBCC5D555357CBEDE6E922F58;300.
  ) 
 Here is how much of TeX's memory you used:
- 16525 strings out of 476919
- 332507 string characters out of 5825424
- 708273 words of memory out of 5000000
- 36223 multiletter control sequences out of 15000+600000
- 418030 words of font info for 69 fonts, out of 8000000 for 9000
+ 16548 strings out of 476919
+ 333482 string characters out of 5825424
+ 714369 words of memory out of 5000000
+ 36241 multiletter control sequences out of 15000+600000
+ 418054 words of font info for 72 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  113i,11n,116p,399b,340s stack positions out of 5000i,500n,10000p,200000b,80000s
 
