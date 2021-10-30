@@ -1,2 +1,3 @@
-# Lirz_resume
-A resume for Lirz
+![resume](Lirz.pdf)
+
+
