@@ -1,0 +1,163 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.1 (9/12/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same
+% directory as this .tex file. These files provide the resume style and themes
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Latest: 2021/10/30
+%----------------------------------------------------------------------------------------
+%   PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[10pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+% moderncv version 1.5.1 (29 Apr 2013)
+
+
+\moderncvstyle{banking} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{black} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage[noindent]{ctex} %中文支持
+\setCJKmainfont{SimSun}
+
+%\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+\usepackage[top=1cm,bottom=1cm,left=2cm,right=2cm]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+%----------------------------------------------------------------------------------------
+%   NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+\name{李}{润泽}
+% All information in this block is optional, comment out any lines you don't need
+\title{个人简历}
+\address{天津大学}{津南区, 天津市 300354}
+\phone[mobile]{(+86)~159-4264-3201}
+\email{Lirz3019244266@163.com}
+\homepage{https://lrz266ouo.github.io}
+%\social[twitter]{username}
+\social[github]{https://github.com/Lrz266OuO}
+%\extrainfo{additional information}
+%\photo[64pt][0.4pt]{picture.jpg} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+%\quote{"A witty and playful quotation" - John Smith}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\makecvtitle % Print the CV title
+
+%----------------------------------------------------------------------------------------
+%   POSITION APPLIED（CAREER OBJECTIVE）
+%----------------------------------------------------------------------------------------
+%\section{求职意向}
+%%\subsection{求职意向}
+%\cventry{期望月薪：  面议}{应聘职位：初级硬件工程师}{}{}{}{}
+
+%----------------------------------------------------------------------------------------
+%   EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{教育背景}
+
+\cventry{本科}{计算机科学与技术}{天津大学}{2019.09---2023.07}{}{}{\textit{GPA: 3.62/4.0}} % Arguments not required can be left empty
+
+%\cvitem{GPA}{3.61/4.0}
+%\cvitem{Score}{88.7/100 (前15\%)}
+
+%----------------------------------------------------------------------------------------
+%   PROFESSIONAL SKILL
+%----------------------------------------------------------------------------------------
+
+\section{专业技能}
+\begin{itemize}
+\setlength{\itemindent}{2em}
+   \item 编程语言：熟悉Python，了解C/C++，Java
+  	\item 开发工具：Linux/Git/VsCode
+\end{itemize}
+
+%----------------------------------------------------------------------------------------
+%   PROJECT EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{项目经历}
+
+\subsection{基于MACE移动端深度学习框架的语音电子相册}
+\cventry{}{基于Android，使用Java语言开发的语音电子相册}{2021暑期小米训练营}{2020.08---2020.10}{}{
+\begin{itemize}
+\setlength{\itemindent}{2em}
+  	\item 该项目可以实现拍照、录音、语音识别与物体识别等功能
+\end{itemize}
+}
+
+\subsection{面向论文评审的有效信息共享方案设计}
+\cventry{项目组成员}{用于提供高匹配度论文的论文评审分享系统}{2020年大学生创新创业训练计划}{2020.04---2021.06}{}{
+\begin{itemize}
+\setlength{\itemindent}{2em}
+   \item 基于Django框架web开发并结合MySQL数据库进行相关数据存储
+   \item 利用机器学习实现分析论文语义、描绘用户画像从而实现精准推送
+\end{itemize}
+}
+
+\subsection{TrivialTCP}
+\cventry{}{基于UDP实现的TCP/IP协议栈，使用C语言开发}{计算机网络课程实践}{2021.08---2021.09}{}{
+\begin{itemize}
+\setlength{\itemindent}{2em}
+	\item 根据RFC文档，实现了连接管理/流量控制/可靠数据传输/拥塞控制等TCP标准
+\end{itemize}
+}
+
+%----------------------------------------------------------------------------------------
+%   WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{学生经历}
+
+\cventry{组织部部长}{负责整理学生会各部门的相关文件与学生会考核制度的修正与优化}{天津大学智能与计算学部学生会}{2019.09---2021.06}{}{
+\begin{itemize}
+\setlength{\itemindent}{2em}
+	\item 组织开展2020年``1024程序员节"定向越野主题活动
+\end{itemize}
+}
+
+\cventry{社会实践办公室部长}{负责管理学部内的社会实践以及评比工作，积极带动学部同学参与社会实践}{天津大学智能与计算学部学生社团团委}{2020.09---2021.06}{}{
+\begin{itemize}
+\setlength{\itemindent}{2em}
+	\item 组织开展2020年暑期以及2021年寒假社会实践院级评比，并将院级优秀实践队推荐到校级评选
+\end{itemize}
+}
+
+\cventry{副班长}{}{天津大学智能与计算学部2019级大类8班}{2019.09---2020.12}{}{
+%\begin{itemize}
+%\setlength{\itemindent}{2em}
+%\item 
+%\item 
+%\item 
+%\end{itemize}
+}
+
+%----------------------------------------------------------------------------------------
+%   AWARDS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{荣誉奖励}
+\cvitem{2021.11}{2021年全国大学生数学建模竞赛天津赛区一等奖}
+\cvitem{2021.01}{天津大学2020年院级学生会优秀工作部门负责人}
+\cvitem{2020.12}{天津大学2020年暑期社会实践市级优秀实践队}
+\cvitem{2020.10}{天津大学2019-2020年度三好学生(综合测评前15\%)}
+
+\end{document}
