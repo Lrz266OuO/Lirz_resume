@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.6.20)  19 JAN 2022 21:51
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.6.20)  26 APR 2022 22:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -525,6 +525,9 @@ LaTeX Info: Redefining \nameref on input line 60.
 \@outlinefile=\write3
 \openout3 = `resume.out'.
 
+\pagenumberwidth=\skip77
+LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <10> not available
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 60.
 LaTeX Font Info:    Font shape `TU/lmss/b/n' in size <24.88> not available
 (Font)              Font shape `TU/lmss/bx/n' tried instead on input line 62.
 
@@ -579,25 +582,14 @@ LaTeX Font Info:    Font shape `TU/lmss/b/n' in size <14.4> not available
 (Font)              Font shape `TU/lmss/bx/n' tried instead on input line 75.
 LaTeX Font Info:    Font shape `TU/lmss/b/n' in size <10> not available
 (Font)              Font shape `TU/lmss/bx/n' tried instead on input line 77.
-LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <10> not available
-(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 77.
 
 LaTeX Font Warning: Font shape `TU/lmss/sb/n' undefined
-(Font)              using `TU/lmss/b/n' instead on input line 99.
+(Font)              using `TU/lmss/b/n' instead on input line 101.
 
 LaTeX Font Info:    Font shape `TU/lmss/b/n' in size <12> not available
-(Font)              Font shape `TU/lmss/bx/n' tried instead on input line 99.
+(Font)              Font shape `TU/lmss/bx/n' tried instead on input line 101.
 
-Underfull \hbox (badness 10000) detected at line 99
-\TU/lmss/m/n/7 .
- []
-
-
-LaTeX Font Warning: Font shape `TU/lmss/sb/n' undefined
-(Font)              using `TU/lmss/b/n' instead on input line 107.
-
-
-Underfull \hbox (badness 10000) detected at line 107
+Underfull \hbox (badness 10000) detected at line 101
 \TU/lmss/m/n/7 .
  []
 
@@ -610,19 +602,52 @@ Underfull \hbox (badness 10000) detected at line 116
 \TU/lmss/m/n/7 .
  []
 
+
+LaTeX Font Warning: Font shape `TU/lmss/sb/n' undefined
+(Font)              using `TU/lmss/b/n' instead on input line 125.
+
+
+Underfull \hbox (badness 10000) detected at line 125
+\TU/lmss/m/n/7 .
+ []
+
+
+LaTeX Font Warning: Font shape `TU/lmss/sb/n' undefined
+(Font)              using `TU/lmss/b/n' instead on input line 133.
+
+
+Underfull \hbox (badness 10000) detected at line 133
+\TU/lmss/m/n/7 .
+ []
+
+
+LaTeX Font Warning: Font shape `TU/lmss/sb/n' undefined
+(Font)              using `TU/lmss/b/n' instead on input line 142.
+
+
+Underfull \hbox (badness 10000) detected at line 142
+\TU/lmss/m/n/7 .
+ []
+
 [1
 
-] (./resume.aux)
-Package rerunfilecheck Info: File `resume.out' has not changed.
-(rerunfilecheck)             Checksum: 4A94A2901C0077F80829E3DB1975C70E;1114.
+] [2] (./resume.aux)
+
+Package rerunfilecheck Warning: File `resume.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `resume.out':
+(rerunfilecheck)             Before: E3C4D1C435FFB1D1AAB0D631B6816994;1740
+(rerunfilecheck)             After:  91E194FD5BA473AC06505185DA5F8083;1725.
  ) 
 Here is how much of TeX's memory you used:
- 13710 strings out of 476919
- 258113 string characters out of 5825424
- 649756 words of memory out of 5000000
- 33483 multiletter control sequences out of 15000+600000
+ 13711 strings out of 476919
+ 258125 string characters out of 5825424
+ 654428 words of memory out of 5000000
+ 33484 multiletter control sequences out of 15000+600000
  417966 words of font info for 61 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 113i,11n,116p,400b,328s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 113i,13n,116p,400b,360s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on resume.pdf (1 page).
+Output written on resume.pdf (2 pages).
